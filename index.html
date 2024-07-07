@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link  rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">    
+                <img src="img/klipartz.com.png" alt="" class="img-fluid">
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">Sobre Mi</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">Resumen</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link">Proyectos</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contacto" class="menu_link">Contacto</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>   
+    </header>
+
+    <main>
+
+        <section class="hero section" id="hero">
+            <div class="hero_container container grid">
+                <div class="hero_content">
+                    <h4>hola,</h4>
+                    <h1>Soy
+                        <span class="typed" data-typed-items="Edson Bruno, Web Developer"></span>
+                    </h1>
+                    <p>
+                        Soy un programador creativo, altamente motivado con una solida etica de trabajo y 
+                        capacidad comprobada para trabajar en equipo. Ademas soy muy apasionado y dedicado a mi carrera.
+                    </p>
+                    <div class="hero_social">
+                        <a href="https://www.linkedin.com/in/edson-bruno-del-aguila-9bb43b2bb/?originalSubdomain=pe"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/edsonbrn"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                    <a href="img/CV - Bruno del Aguila.pdf" target="_new" class="btn">
+                        Descargar CV
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="hero_img">
+                    <img src="img/banner3.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+
+            <h2 class="section_title">Sobre Mi</h2>
+
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="img/hola (1).png" alt="" class="img-fluid">
+                </div>
+                <div class="abotu_content">
+                    <h1>Practicante Desarrollador.</h1><br>
+                    <p>Tengo una mentalidad analitica y habilidades 
+                        efectivas de resolucion de problemas que me 
+                        permiten responder a los desafios de manera
+                        sistematica y eficiente. Poseeo conocimiento 
+                        en herramientas de wireframe como Mockflow, Webflow, 
+                        Figma y Proto.io.
+                    </p><br>
+                    <p>He desarrollado varios proyectos de escritorio
+                        con Java. Ademas, tengo experiencia en desarrollado
+                        web utilizando HTML5, CSS3, Javascript, Bootstrap, 
+                        PHP y APIs de consumo.
+                    </p><br>
+                    <p>Por ultimo, poseeo conocimiento de base de datos
+                        y herramientas de gestion de versiones y gestion 
+                        de codigo: Git y Github.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resumen</h2>
+            
+            <div class="resume_container container grid">
+                <div class="resume_content">
+                    <div id="page-1" class="page one">
+                        <div class="page_heading">Educación</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2021-2026</span>
+                                <h4>Ingenieria de Software</h4>
+                                <span class="position">Universidad Tecnologica del Peru</span>
+                                <p>Actualmente estoy cursando el 7° ciclo de la carrera de Ingenieria de Software
+                                    de la Univerdad Tecnologica del Peru, perteneciente al quinto superior, donde he
+                                    podido desarrollar una excelente comunicacion efectiva, aprendizaje colaborativo
+                                    y trabajo en equipo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-2" class="page two">
+                        <div class="page_heading">Skills</div>
+                        <div class="progressBoxs grid">
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>HTML</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Figma</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>CSS</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Javacript</span>
+                                    <span>40%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 40%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>PHP</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>JQuery</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+        
+        </section>
+
+
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section_title">Proyectos</h2>
+
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter="*" class="filter-active">Todo</li>
+                    <li data-filter=".filter-web">Web</li>
+                    <li data-filter=".filter-game">Juegos</li>
+                    <li data-filter=".filter-tools">Herramientas</li>
+                </ul>
+                <div class="portfolio_wrap-container">
+                    <div class="portfolio_item filter-game">
+                        <div class="portfolio_wrap">
+                            <img src="img/Imagen2.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Snake Game</h4>
+                                <p>Juego</p>
+                                <div class="porfolio_links">
+                                    <a href="https://github.com/edsonbrn/snake-game"><ion-icon name="logo-github"></ion-icon></a>
+                                    <a href="https://edsonbrn.github.io/snake-game/"><ion-icon name="globe-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-tools">
+                        <div class="portfolio_wrap">
+                            <img src="img/Imagen11.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Api Gifs</h4>
+                                <p>Herramienta</p>
+                                <div class="porfolio_links">
+                                    <a href="https://github.com/edsonbrn/apiGifs"><ion-icon name="logo-github"></ion-icon></a>
+                                    <!--<a href="#"><ion-icon name="globe-outline"></ion-icon></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-game">
+                        <div class="portfolio_wrap">
+                            <img src="img/Imagen9.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Quiz Game</h4>
+                                <p>Juego</p>
+                                <div class="porfolio_links">
+                                     <!--<a href="#"><ion-icon name="logo-github"></ion-icon></a>-->
+                                     <!--<a href="#"><ion-icon name="globe-outline"></ion-icon></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="img/Imagen6.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Pexels Clone</h4>
+                                <p>Web</p>
+                                <div class="porfolio_links">
+                                     <!--<a href="#"><ion-icon name="logo-github"></ion-icon></a>-->
+                                     <!--<a href="#"><ion-icon name="globe-outline"></ion-icon></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-tools">
+                        <div class="portfolio_wrap">
+                            <img src="img/Imagen3.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Glowing Clock</h4>
+                                <p>Herramienta</p>
+                                <div class="porfolio_links">
+                                     <!--<a href="#"><ion-icon name="logo-github"></ion-icon></a>-->
+                                     <!--<a href="#"><ion-icon name="globe-outline"></ion-icon></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-tools">
+                        <div class="portfolio_wrap">
+                            <img src="img/Imagen10.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Music Player</h4>
+                                <p>Herramienta</p>
+                                <div class="porfolio_links">
+                                     <!--<a href="#"><ion-icon name="logo-github"></ion-icon></a>-->
+                                     <!--<a href="#"><ion-icon name="globe-outline"></ion-icon></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="contact section" id="contacto">
+
+
+            <h2 class="section_title">Contacto</h2>
+
+            <div class="contact_container container">
+                <div class="contact_content">
+                                    <div class="contact-info">
+                    <div class="card">
+                        <i class="card-icon far fa-envelope"></i>
+                        <p>eb170803@gmail.com</p>
+                        <h5>
+                            <a href="mailto:eb170803@gmail.com">Mándame un correo</a>
+                        </h5>
+                    </div>
+        
+                    <div class="card">
+                        <i class="card-icon fas fa-phone"></i>
+                        <p>+51 997233194</p>
+                        <h5>
+                            <a href="https://wa.link/ffk8rf"
+                            target="_blank">Escríbeme un mensaje</a>
+                        </h5>
+                    </div>
+        
+                    <div class="card">
+                        <i class="card-icon fas fa-map-marker-alt"></i>
+                        <p>Lima, Peru</p>
+                        <p></p>
+                    </div>
+                </div>
+
+
+
+                </div>
+
+
+            </div>
+             
+        </section>
+
+
+
+    </main>
+
+    
+
+    <footer>
+
+
+        <span>Copyright 2024 &#169; All rights reserved - Edson Bruno </span>
+        <br>
+
+
+        <span id="hola"> 
+            Diseño inspirado en
+            <a href="https://www.youtube.com/@Kingcode."> 
+                Kingcode
+            </a>
+        </span>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script src="main.js"></script>
+
+
+
+</body>
+</html>
